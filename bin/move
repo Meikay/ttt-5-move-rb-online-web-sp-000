@@ -9,6 +9,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   input = gets.strip
 def input_to_index
   index = input_to_index
+  return index
 end
 
 def move(board, index, value = "X")
